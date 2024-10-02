@@ -1,0 +1,73 @@
+# Xcode
+#
+# gitignore contributors: use the `git check-ignore -v .` command to debug indenting issues.
+
+# Build results
+build/
+DerivedData/
+
+# GNU-style build results
+[Aa].out
+*.o
+*.pyc
+
+# Xcode-specific
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata/
+*.xccheckout
+*.moved-aside
+DerivedData/
+*.hmap
+*.ipa
+*.playground.xml
+*~.nib
+
+# Apple/Objective-C/Swift
+*.swp
+*.lock
+*.DS_Store
+*.swp
+*.swo
+
+# User-specific
+*.xcuserstate
+
+# Swift Package Manager
+#
+# Add this line if you want to avoid committing the test discovery file
+# .swiftpm/xcode/package.xcworkspace/contents.xcworkspacedata
+# .build/
+
+# CocoaPods
+#
+# We recommend against committing the Pods directory or your .xcworkspace
+# Pods/
+# *.xcworkspace
+
+# Carthage
+#
+# Add this line if you want to avoid committing the Carthage build artifacts
+# Carthage/Build/
+
+# AccuRev
+.accurev.session
+
+# fastlane
+#
+# It is recommended to not store the screenshots in the repo since they will
+# change frequently.
+# fastlane/screenshots
+# fastlane/test_output
+
+# Code Injection
+#
+# InjectionIII is an app that allows you to inject code into a running app.
+# It creates a directory for its own use.
+# .InjectionIII/
